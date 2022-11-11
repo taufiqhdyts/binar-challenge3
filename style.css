@@ -1,0 +1,760 @@
+h1 {
+    font-family: 'Bebas Neue' !important;
+    font-weight: bold !important;
+    color: white;
+    font-size: 80px !important;
+}
+
+h2 {
+    font-family: 'Bebas Neue' !important;
+    font-weight: bold !important;
+    color: white;
+    font-size: 36px !important;
+}
+
+h3 {
+    font-family: 'Bebas Neue' !important;
+    font-weight: bold !important;
+    color: white;
+    font-size: 24px !important;
+}
+
+body {
+    font-family: 'Open Sans' !important;
+    color: white;
+    font-size: 18px !important;
+}
+
+.subtext {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: white;
+}
+
+.btn {
+    font-family: 'Open Sans' !important;
+    font-weight: bold !important;
+    color: #1A1917;
+    font-size: 16px !important;
+}
+
+nav {
+    font-family: 'Open Sans' !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px !important;
+}
+
+/*screen 1*/
+
+#main-screen {
+    background: url("assets/main-bg.jpg");
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    height: 960px;
+}
+
+/*#mainbggradient {
+    position: absolute;
+    border: 2px solid red;
+    width: 1441.55px;
+    height: 960.14px;
+    left: -1.55px;
+    top: 0.11px;
+    background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+}*/
+
+.navbar {
+    padding-left: 100px;
+    padding-right: 150px;
+    height: 90px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-item {
+    margin-inline-start: 50px;
+}
+
+.main-screen-content {
+    position: inherit;
+}
+
+#playtg {
+    position: relative;
+    top: 225px;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#expntg {
+    position: relative;
+    top: 235px;
+    letter-spacing: 2px;
+}
+
+#playnow {
+    position: relative;
+    height: 60px;
+    top: 270px;
+
+    padding-left: 90px;
+    padding-right: 90px;
+
+    font-weight: bold;
+    font-size: 16px;
+
+    background-color: #F3AF34;
+}
+
+.subbtn{
+    color: white;
+}
+
+#scrolldown {
+    position: relative;
+    top: 550px;
+}
+
+#scrolldownbutton {
+    border: none;
+}
+
+.btn-outline-light {
+    --bs-btn-hover-color: #F3AF34;
+    --bs-btn-hover-bg: none;
+    --bs-btn-active-color: #F3AF34;
+    --bs-btn-active-bg: none;
+}
+
+.navbar-dark {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+@media (max-width: 991px){
+    .navbar {
+        height: 295px;
+    }
+    .navbar-nav-left {
+        margin-left: 0px;
+    }
+    .navbar-nav-right {
+        margin-left: 0px;
+    }
+    .main-screen-content {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 654px){
+    .navbar {
+        height: 290px;
+    }
+    .navbar-nav-left {
+        margin-left: 0px;
+    }
+    .navbar-nav-right {
+        margin-left: 0px;
+    }
+    .main-screen-content {
+        margin-top: -150px;
+    }
+    #scrolldown {
+        margin-top: -100px;
+    }
+}
+
+/*screen 2*/
+
+#about {
+    background: url("assets/the-games-bg.jpg");
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    height: 1051.43px;
+}
+
+
+#whatspecial2 {
+    top: 200px;
+    color: #FFFFFF;
+}
+
+.aboutc {
+    position: relative;
+    top: 150px;
+    color: white;
+    text-align: left;
+}
+
+.whatspecial {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+#thegames {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.slidec {
+    position: relative;
+    top: 150px;
+}
+
+/*screen 3*/
+
+#features {
+    background: url("assets/features.jpg");
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    height: 870.26px;
+}
+
+.featuresitems {
+    position: relative;
+    top: 169px;
+    left: 5.26%;
+    color: white;
+    text-align: left;
+}
+
+.featurerow {
+    margin-bottom: 40px;
+}
+
+.togglebullet {
+    position:relative;
+    top:5px;
+    left:5px;
+}
+
+.toglebulletinactive {
+    position: relative;
+    z-index: 2;
+}
+
+.togglebulletactive {
+    border: none;
+    z-index: 2;
+}
+
+.progress {
+    position: relative;
+    z-index: 1;
+    width: 150px;
+    left: -61px;
+    right:2px;
+    top:81px;
+    transform: rotate(90deg);
+    z-index: 3;
+}
+
+.featurehead {
+    background: none;
+    border: none;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: none;
+    --bs-btn-active-color: #F3AF34;
+    --bs-btn-active-bg: none;
+    color: #F3AF34;
+    text-transform: uppercase;
+    font-size: 18px !important;
+    font-family: 'Open Sans' !important;
+}
+
+.featuredesc {
+    background: none;
+    border: none;
+}
+
+.featureheadtbd {
+    --bs-btn-hover-color: #F3AF34;
+    --bs-btn-hover-bg: none;
+    --bs-btn-active-color: #F3AF34;
+    --bs-btn-active-bg: none
+}
+/*
+.col-1 {
+    border: 2px solid red;
+}
+
+.col-10 {
+    border: 2px solid red;
+}
+*/
+#whatspecial3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+#featuresheader {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+/* screen 4 */
+
+#systreq {
+    background: url("assets/requirements.png");
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    height: 960px;
+    color: white;
+}
+
+#systreqbggradient {
+    position: absolute;
+    width: inherit;
+    height: 960.16px;
+    left: -1.55px;
+    top: 2881.69px;
+    background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%)
+}
+
+.systreqhead {
+    position: relative;
+    top: 145.33px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.systreq-left {
+    position: relative;
+    top: 200px;
+    padding-left: 55px;;
+}
+
+.table {
+    border: 1px solid #979797;
+}
+
+.td {
+    border: 1px solid #979797;
+}
+
+.reqhead{
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+/* screen 5  */
+
+#press {
+    background: url("assets/top-score-bg.png");
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    height: 960px;
+}
+
+#pressbggradient {
+    position: absolute;
+    width: inherit;
+    height: 960.16px;
+    left: -1.58px;
+    top: 3841.69px;
+    background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%)
+}
+
+.pressleft {
+    position: relative;
+    top: 275px;
+    left: 45px;
+}
+
+.pressleft-subtext {
+    margin-top: 15px;
+    margin-bottom: 40px;;
+}
+
+#seemore {
+    padding-left: 100px;;
+    padding-right: 100px;
+    height: 60px;
+
+    background-color: #F3AF34;
+}
+
+.pressright {
+    position: relative;
+    top: 80px;
+}
+
+.twtcard {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    height: 182px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.profilepic {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 81.5875px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#profilepicshadowevan {
+    position: absolute;
+    top: 45px;
+    left: 180px;
+    width: 81.5875px;
+    height: 56px;
+}
+
+#profilepicshadowjada {
+    position: absolute;
+    top: 257.5px;
+    left: 13px;
+    width: 81.5875px;
+    height: 56px;
+}
+
+#profilepicshadowaaron {
+    position: absolute;
+    top: 467.5px;
+    left: 125px;
+    width: 81.5875px;
+    height: 56px;
+}
+
+.profilename {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.profiledesc{
+    position: relative;
+    top: -7.5px;
+    left: 5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.twticon {
+    position: relative;
+    height: 20px;
+    top: 25px;
+    left: 75px;
+}
+
+@media (max-width: 1399px) {
+    .twticon {
+        position: relative;
+        height: 20px;
+        top: 25px;
+        left: 20px;
+    }
+
+    .profilenameaaron {
+        font-size: small;
+    }
+
+    .twtdateevan {
+        position: relative;
+        margin-top: -20px;
+        left: 5px;
+        color: white;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    #profilepicshadowevan {
+        position: absolute;
+        top: 45px;
+        margin-left: -22.5px;
+        width: 81.5875px;
+        height: 56px;
+    }
+    
+    #profilepicshadowaaron {
+        position: absolute;
+        top: 467.5px;
+        margin-left: -15px;
+        width: 81.5875px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #profilepicshadowevan {
+        position: absolute;
+        top: 45px;
+        margin-left: -46px;
+        width: 81.5875px;
+        height: 56px;
+    }
+
+    #profilepicshadowaaron {
+        position: absolute;
+        top: 467.5px;
+        margin-left: -30px;
+        width: 81.5875px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 991px) {
+    #profilepicshadowevan {
+        position: absolute;
+        top: 45px;
+        margin-left: -75px;
+        width: 81.5875px;
+        height: 56px;
+    }
+
+    #profilepicshadowaaron {
+        position: absolute;
+        top: 467.5px;
+        margin-left: -50px;
+        width: 81.5875px;
+        height: 56px;
+    }
+    
+    .profilename {
+        position: relative;
+        top: 15px;
+        left: 5px;
+        color: #FFB548;
+        font-size: 15px;
+    }
+    
+    .profiledesc{
+        position: relative;
+        top: -7.5px;
+        left: 5px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 15px;
+    }
+
+    .twticon {
+        position: relative;
+        height: 20px;
+        top: -85px;
+        left: 190px;
+    }
+
+    .twticonevan {
+        position: relative;
+        height: 20px;
+        top: -55px;
+        left: 200px;
+    }
+
+    .twtquote {
+        position: relative;
+        margin-top: -20px;
+        left:5px;
+        color: white;
+        font-size: medium;
+    }
+
+    .twtquote2lines {
+        position: relative;
+        margin-top: -20px;
+        left: 5px;
+        color: white;
+        font-size: small;
+    }
+
+    .twtdateevan {
+        position: relative;
+        margin-top: -10px;
+        left: 5px;
+        color: white;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+}
+
+.twtquote {
+    position: relative;
+    left:5px;
+    top: 5px;
+    color: white;
+}
+
+/*@media (max-width: )*/
+
+.twtquote2lines {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    color: white;
+}
+
+.twtdateevan {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.twtdate2lines {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/* screen 6 */
+
+#subscribe {
+    background: url("assets/newsletter.png");
+    background-size: cover;
+    background-position: auto;
+    width: 100%;
+    height: 860px;
+}
+
+.subscribeleft {
+    position: relative;
+}
+
+.skullimg {
+    position: relative;
+    top: 150px;
+    left: 200px;
+    width: 412.35px;
+    height: 655.6px;
+}
+
+.subscriberight {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+@media (max-width: 1270px) {
+    .subscriberight {
+        padding-left: 0px;
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 1084px) {
+    .subscriberight {
+        padding-left: 0px;
+        margin-left: -140px;
+    }
+}
+
+.newsletterh3 {
+    letter-spacing: 2px;
+}
+
+.newsletterh1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 65px;
+}
+
+.emailinputheader {
+    margin-top: 20px;
+}
+
+#emailinput {
+    background: rgba(255, 255, 255, 0.08);
+    height: 60px;
+    color: #F3AF34;
+    border: none;
+}
+
+#subscribenow {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #F3AF34;
+    height: 60px;
+}
+
+#footer {
+    min-height: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #080A0B;
+}
+
+.nav-link {
+    color: white;
+}
+
+.footernav {
+    justify-content: end;
+    
+}
+
+.footernavitem {
+    color: white;
+    margin-inline-start: 30px;
+}
+
+#copyright {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.legals {
+    text-align: center;
+    justify-content: end;
+}
+
+.legalsinbar {
+    border-right: 2px solid white;
+    height: 23px;
+}
